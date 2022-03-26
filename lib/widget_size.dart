@@ -35,7 +35,8 @@ class _WidgetSizeState extends State<WidgetSize> {
 
   void postFrameCallback(_) async {
     var context = widgetKey.currentContext;
-    await Future.delayed(const Duration(milliseconds: 100)); // wait till the widget is drawn
+    await Future.delayed(
+        const Duration(milliseconds: 100)); // wait till the widget is drawn
     if (!mounted || context == null) return; // not yet attached to layout
 
     var newSize = context.size!;

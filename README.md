@@ -7,7 +7,7 @@ A widget to calculate it's size after being built and attached to a widget tree
 
 ## Usage
 
-To use this plugin, add [widget_size](https://pub.dartlang.org/packages/widget_size#-installing-tab-) as a dependency in your pubspec.yaml file.
+To use this plugin, add [widget_size](https://pub.dartlang.org/packages/widget_size/install) as a dependency in your pubspec.yaml file.
 
 ```yaml
 dependencies:

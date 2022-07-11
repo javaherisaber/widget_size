@@ -17,13 +17,18 @@ dependencies:
 ## Example
 
 ```dart
+double _yourHeight = 50;
+double _yourWidth = 50;
+
 WidgetSize(
   onChange: (Size size) {
     // your Widget size available here
+    _yourHeight = size.height;
+    _yourWidth = size.width;
   },
   child: Container(
-    height: _widgetSize,
-    width: _widgetSize,
+    height: _yourHeight,
+    width: _yourWidth,
     color: Theme.of(context).primaryColor,
   ),
 )

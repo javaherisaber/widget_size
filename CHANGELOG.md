@@ -1,3 +1,6 @@
+## 0.0.4
+* Update example project
+
 ## 0.0.3
 * Remove unnecessary null check on `SchedulerBinding.instance`
 

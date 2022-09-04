@@ -1,6 +1,6 @@
 name: widget_size
 description: A widget to calculate it's size after being built and attached to a widget tree
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/javaherisaber/widget_size
 
 environment:

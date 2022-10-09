@@ -1,3 +1,6 @@
+## 1.0.0
+* Update Flutter version in example project to 3.3.4 and Dart to 2.18.2 
+
 ## 0.0.4
 * Update example project
 
